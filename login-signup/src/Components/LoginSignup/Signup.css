@@ -1,0 +1,76 @@
+/* Container for the whole signup form */
+.signup-container {
+  width: 400px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  font-family: Arial, sans-serif;
+}
+
+/* Header text */
+.signup-header .signup-title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #3c009d;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+/* Inputs container */
+.signup-inputs {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+/* Input fields */
+.signup-inputs input {
+  width: 100%;
+  padding: 12px 15px;
+  border: 1.5px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+
+
+/* Signup button */
+.signup-button {
+  width: 100%;
+  text-align: center;
+  background-color: #3c009d;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 12px 0;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.signup-button:hover {
+  background-color: #5c00ff;
+}
+
+/* Link to login */
+.signup-link {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 14px;
+  color: #555;
+}
+
+.signup-link a {
+  color: #3c009d;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.signup-link a:hover {
+  text-decoration: underline;
+}
